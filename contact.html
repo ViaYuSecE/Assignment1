@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+    <link rel="stylesheet" href="style.css">
+    <title>viajapanese.com - Contact</title>
+
+
+    <style>
+        .flex-container {
+            display: flex;
+            background-color: #202020;
+            border: 5px solid #171717;
+            border-radius: 35px;
+        }
+
+        .flex-item {
+            flex: 50%;
+            padding: 50px;
+        }
+
+        .form-wrapper01,
+        .form-wrapper02 {
+            margin: 10px;
+        }
+
+        .full-input01,
+        .full-input02 {
+            display: inline-block;
+            padding: 3px;
+            border: 1px solid #FAFAFA;
+            border-radius: 4px;
+        }
+
+        .full-input02 {
+            width: 94%;
+        }
+
+        .full-input01 {
+            width: 45%;
+        }
+
+        input {
+            outline: none;
+            border: none;
+            display: block;
+            line-height: 1.2em;
+            font-size: 14pt;
+            width: 95%;
+            background-color: #202020;
+        }
+
+        label {
+            display: block;
+            font-size: 12px;
+            color: #FAFAFA;
+        }
+
+        textarea {
+            width: 95%;
+            height: 300px;
+            padding: 12px 20px;
+            box-sizing: border-box;
+            border: none;
+            background-color: #202020;
+            color: #FAFAFA;
+            resize: none;
+        }
+
+        button {
+            background-color: #F04C53;
+            color: #ffffff;
+            border: none;
+            padding: 12px 50px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <ul class="navmenu">
+
+            <li style="float:left"><img src="logo.png" height="20px"
+                    style="padding-top:18px; padding-bottom:12px; padding-left:20px;"></a></li>
+
+            <li class="menu"><a href="contact.html">Contact</a></li>
+
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Links</a>
+                <div class="dropdown-content">
+                    <a href="https://www.wanikani.com">Wanikani</a>
+                    <a href="https://bunpro.jp">Bunpro</a>
+                    <a href="https://apps.ankiweb.net">Anki</a>
+                    <a href="https://www.tofugu.com">Tofugu</a>
+                </div>
+            </li>
+
+
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Learn</a>
+                <div class="dropdown-content">
+                    <a href="learn-hiragana.html">Hiragana</a>
+                    <a href="learn-katakana.html">Katakana</a>
+                </div>
+            </li>
+            <li class="menu"><a href="home.html">Home</a></li>
+        </ul>
+
+    </nav>
+    <br>
+    <section>
+        <div class="flex-container">
+            <div class="flex-item">
+
+                <h2>Interested in Learning Japanese?</h2>
+                <p>We’re here to help you embark on your Japanese language journey! Whether you’re a complete beginner
+                    or looking to improve your skills, we offer a variety of courses and resources tailored to your needs.
+                    <br><br>
+                    Send us a message, and we’ll get back to you with all the information you need to get started!
+                </p>
+            </div>
+
+            <form>
+                <div class="flex-item">
+
+
+                    <div class="form-wrapper01">
+
+                        <div class="full-input01"><label for="name">Name</label>
+                            <input type="text" name='name'></input>
+                        </div>
+
+                        <div class="full-input01"><label for="email">Email</label>
+                            <input type="text" name="email"></input>
+                        </div>
+                    </div>
+
+                    <div class="form-wrapper02">
+                        <div class="full-input02"><label for="message">Message</label>
+                            <textarea name="message" rows="10" cols="30"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="form-wrapper02">
+
+                        <button onclick="myFunction()">Send</button>
+                        <script>
+                            function myFunction() {
+                                alert("Thanks, we'll get back to you soonest!");
+                            }
+                        </script>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p style="text-align: center; font-size: x-small;">Dummy text generated with ChatGPT.
+            <br>
+            © Copyright 2024
+        </p>
+    </footer>
+
+</body>
+
+</html>
