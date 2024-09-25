@@ -4,20 +4,22 @@ body {
     color: #FAFAFA;
 }
 
-section, footer {
+section,
+footer {
     max-width: 1000px;
     margin: auto;
     line-height: 1.5;
 }
 
-h2, th {
+h2,
+th {
     color: #F04C53;
 }
 
-h3, footer {
+h3,
+footer {
     color: #FFEBA4;
 }
-
 
 .subpart {
     background-color: #202020;
